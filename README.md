@@ -29,3 +29,10 @@ The unique face videos are served to users dynamically via Flask endpoints.
 Management Tools:
 
 A "Clear" button lets users delete uploaded files, the dataset folder, and reset the system for fresh uploads.
+
+
+![image](https://github.com/user-attachments/assets/9d29ed48-b314-4aed-87e8-2d816f53dbbe)
+
+![image](https://github.com/user-attachments/assets/70d04f80-4ce9-4f6b-9b8d-6f1505f28e33)
+
+
