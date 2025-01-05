@@ -39,9 +39,12 @@ A "Clear" button lets users delete uploaded files, the dataset folder, and reset
 Overview of the technologies, tools, algorithms & techniques used 
 
 OpenCV, Python & Deep Learning: OpenCV provides functions for reading, processing & analyzing visual data. Deep learning based metric algorithm to perform face recognition. Python libraries like numpy, datetime, etc.
+
 Dlib & face_recognition libraries: Used to perform face detection, vector calculation, comparison & matching. 
 Pickle library is used to save python objects.
+
 HTML, CSS & Java script for frontend development.
+
 Flask, a web framework for interaction of front end with backend.
 
 
