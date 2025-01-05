@@ -24,7 +24,7 @@
 
 ### **Backend Processing**
 - The uploaded videos are sent to the server, where the `match_faces.py` script:
-  1. Loads pre-existing facial encodings from a file (`encodings.pickle`).
+  1. Loads pre-existing facial encodings from a file (`encodings.pickle`) or dynamically created one if not present.
   2. Processes each video to detect and compare faces using the **face_recognition** library.
   3. Saves frames or new video files containing unique faces in the dataset folder.
   4. Updates facial encodings of unmatched faces in `encodings.pickle`.
