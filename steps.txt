@@ -1,0 +1,51 @@
+Step 1 : Intsall python version:  Python 3.9.0
+
+Run the below commands on command prompt/terminal to install the required libraries
+Step 2 : pip install opencv-python numpy matplotlib imutils argparse pickle flask flask_restful
+
+To install the face-recognition library,download the file attached to the email and run the below command in the command prompt
+Step 3 : pip install [copy path of the downloaded file here]
+    Eg : pip install "E:\Dlib-main\Dlib-main\dlib-19.22.99-cp39-cp39-win_amd64.whl"
+Note that, when you copy the file path, the extension of the file must be included which is .whl here.
+
+Step 4 : pip install face-recognition  
+(If you try step 4 without step 3, it will fail to install face-recognition library.)
+
+
+Uploads folder is created after the user provides input. It stores all the files submitted by the user.
+Dataset is the folder which stores only the unique face videos after processing all the videos present in uploads.
+app.py is uses flask to create a simple web interface
+encodings.pickle stores features/encodings/mathematical computations of unique faces only
+match_faces.py performs the face recognition, identifiaction and matching task.
+
+├── dataset
+│   ├── cillian murphy test.mp4
+│   ├── Dhruv test.mp4
+│   ├── emma mackey.mp4
+│   ├── Mohak test.mp4
+├── static
+│   ├── css
+│       ├── style.css
+│   ├── images
+│       ├── back.jpg
+│       ├── back1.jpg
+│       ├── back2.jpg
+│       ├── logo1.jpg
+│   ├── js
+│       ├── script,js
+├── templates
+│   ├── index.html
+├── uploads
+|   ├── cillian murphy test.mp4
+│   ├── cillian murphy.mp4
+│   ├── Dhruv test.mp4
+│   ├── emma mackey.mp4
+│   ├── Mohak test.mp4
+├── app.py
+├── encodings.pickle
+├── match_faces.py
+
+We run the python app.py command in the terminal which will redirect us to a web page.
+
+
+
