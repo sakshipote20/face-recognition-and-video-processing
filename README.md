@@ -35,4 +35,7 @@ A "Clear" button lets users delete uploaded files, the dataset folder, and reset
 
 ![image](https://github.com/user-attachments/assets/70d04f80-4ce9-4f6b-9b8d-6f1505f28e33)
 
+![image](https://github.com/user-attachments/assets/8fd210bb-54cf-4eb2-ab98-71a6b31c0ddb)
+
+
 
