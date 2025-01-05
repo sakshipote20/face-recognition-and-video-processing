@@ -43,6 +43,7 @@ Pickle library is used to save python objects.
 HTML, CSS & Java script for frontend development.
 Flask, a web framework for interaction of front end with backend.
 
+
 1. OpenCV: for face capture, enables our application to perform complex operations on video frames, such as resizing, converting colors, and writing output videos.
 
 2. Face_Recognition: for face detection and recognition, is like the brain of our application, responsible for recognizing faces in videos.
@@ -52,5 +53,5 @@ The network architecture for face recognition is based on ResNet-34 but with few
 On the Labeled Faces in the Wild (LFW) dataset the network compares to other state-of-the-art methods, reaching 99.38% accuracy.
 
 3. Flask: for integration, helps in handling user requests and serving responses.
-![image](https://github.com/user-attachments/assets/83648948-5873-4bbd-9ca4-6e9a71d0ff14)
+
 
